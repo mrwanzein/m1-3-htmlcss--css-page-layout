@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.mother-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.content > p {
+    color: black;
+    font-size: 1.2em;
+}
+
+.nav {
+    background-color: black;
+}
+
+.footer {
+    background-color: lightslategrey;
+}
