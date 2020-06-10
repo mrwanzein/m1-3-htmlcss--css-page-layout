@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background: url('imgs/bg.jpg');
+}
+
+.center {
+    text-align: center;
+    padding-top: 50vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
