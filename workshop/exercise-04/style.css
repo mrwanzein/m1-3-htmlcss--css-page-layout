@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.main {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limited {
+    display: inline;
+    padding: 5px 15px;
+    border:  1px solid black;
+    border-radius: 5px;
+}
+
+.promotion {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.promotion-description {
+    display: inline;
+    
+}
+
+.link {
+    color: #0070c9;
+    text-decoration: none;
+    position: relative;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
+  .link::after {
+    content: '>';
+    display: block;
+    position: absolute;
+    right: -12px;
+    bottom: -2px;
+    transition: right ease 300ms;
+  }
+  .link:hover::after {
+    right: -18px;
+  }
