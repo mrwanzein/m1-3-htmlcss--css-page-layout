@@ -5,3 +5,32 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+.desktop-nav > ul{
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.desktop-nav > ul > li{
+  margin: 0 20px;
+}
+
+.mobile-nav {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  display: none;  
+}
+
+@media screen and (max-width: 800px) {
+  .desktop-nav > ul{
+    display: none;
+  }
+
+  .mobile-nav {
+    display: unset;  
+  }
+}
